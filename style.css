@@ -1,0 +1,80 @@
+body{
+  background-color: #6DBAA1;
+}
+z{
+  text-align: left;
+  color: #D9C1F2;
+  font-size: 55px;
+  text-decoration: overline;
+  font-family: "courier", monospace;
+}
+h1{
+  color: #F0F0C9;
+  text-align: center;
+  font-family: "Arial", monospace;
+}
+h2{
+  color: #D9C1F2;
+  text-align: center;
+  text-decoration: overline;
+  font-size: 55px;
+  font-family: "courier", monospace;
+}
+h3{
+  color: #3148BC;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Times New Roman", monospace;
+}
+.container {
+  position: relevant;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h4{
+  color: #a17a5e;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", monospace;
+}
